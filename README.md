@@ -2,7 +2,7 @@
 
 A beginner-friendly Python project that uses the **Google Gemini API** and **Pydantic v2** to build an AI agent that always returns **validated, structured JSON responses**.
 
-Built for a YouTube tutorial — every line is commented and explained.
+
 
 ---
 
