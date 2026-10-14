@@ -1,0 +1,26 @@
+# requirements.txt — Python dependencies for the Structured Output AI Agent
+#
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Versions verified compatible with Python 3.14 on Windows.
+# pydantic-core 2.50.1 ships a pre-built cp314 wheel — no Rust compilation needed.
+#
+# Note: google-generativeai (the old SDK) is fully deprecated.
+# This project uses google-genai (the current official SDK).
+
+# Google Generative AI SDK — current official Python client for Gemini
+google-genai==2.30.1
+
+# Pydantic v2 — data validation and schema definition
+# pydantic-core 2.50.1 ships a pre-built cp314 wheel (no Rust compilation needed)
+pydantic==2.14.1
+
+# python-dotenv — loads .env file into os.environ
+python-dotenv==1.2.4
+
+# pytest — test runner
+pytest==9.1.1
+
+# pytest-mock — provides the mocker fixture for mocking in tests
+pytest-mock==3.16.0

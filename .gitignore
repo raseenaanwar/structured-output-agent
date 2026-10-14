@@ -1,0 +1,45 @@
+# .gitignore — Files and folders Git should never track
+#
+# CRITICAL: .env contains your secret API key.
+# If you accidentally commit it, rotate the key immediately at:
+#   https://aistudio.google.com/app/apikey
+
+# ── Secret files ──────────────────────────────────────────────
+.env
+
+# ── Virtual environment ───────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Log files (generated at runtime) ─────────────────────────
+*.log
+
+# ── Python bytecode cache ─────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── pytest / test artefacts ───────────────────────────────────
+.pytest_cache/
+.cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ── Distribution / packaging ──────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── IDE and editor files ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
